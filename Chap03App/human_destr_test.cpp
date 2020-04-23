@@ -34,6 +34,11 @@ int main() {
 	Human woman("김가람", 25);
 	woman.intro();
 
+	// 동적 할당
+	Human* leo = new Human("레오나르도 디카프리오", 47);
+	leo->intro();
+
 	// 파괴자는 따로 입력하지 않아도 자동으로 실행된다.
+	// 실행 순서의 반대로 파괴자가 실행된다.
 	return 0;
 }
