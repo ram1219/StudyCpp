@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{E6984193-4E1F-4F0C-8BF6-26CB3A353417}</ProjectGuid>
-    <RootNamespace>Chap04App</RootNamespace>
+    <ProjectGuid>{33F8B29E-7E2F-4621-A5F7-00A950A298FF}</ProjectGuid>
+    <RootNamespace>Chap05App</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -141,7 +141,7 @@
     <ClInclude Include="cursor.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SolaSystem.cpp" />
+    <ClCompile Include="TimePlusPlus.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
