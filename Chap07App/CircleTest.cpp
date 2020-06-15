@@ -32,7 +32,7 @@ public:
 
 int main() {
 	Point p(1, 1, 'P');					// PÀÇ À§Ä¡ : (1, 1)
-	Circle c(5, 5, 'C', 2);
+	Circle c(5, 5, 'C', 5);
 
 	p.show();
 	c.show();
